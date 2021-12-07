@@ -1,0 +1,112 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// some styles for Nano JSX
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#site-content {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+#content {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 3.125rem;
+  }
+
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #272a36;
+    color: #fff;
+    border-radius: 6px;
+  }
+}
+
+#navbar {
+  padding: 1.25rem;
+  background-color: #db4861;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      display: inline;
+
+      a {
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding: 0.4em 1em;
+        color: #fff;
+
+        &:hover {
+          color: #ff4e6a;
+          background-color: #fff;
+        }
+
+        &.active {
+          text-decoration: underline;
+          color: #fff;
+        }
+
+        &.active:hover {
+          color: #ff4e6a;
+        }
+      }
+    }
+  }
+}
+
+#navbar-logo {
+  display: flex;
+  align-items: center;
+  width: 9rem;
+  height: auto;
+  margin-right: 2.5rem;
+}
+
+footer {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: #272a36;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #ff4e6a;
+
+    &:hover {
+      color: #db4861;
+    }
+  }
+}
