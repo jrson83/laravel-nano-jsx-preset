@@ -1,6 +1,6 @@
 {
     "name": "jrson83/laravel-nano-jsx-preset",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Nano JSX frontend preset for Laravel based on https://github.com/wewowweb/laravel-svelte-preset by Gal Jakic.",
     "keywords": [
         "nano-jsx",

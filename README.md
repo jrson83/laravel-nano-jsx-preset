@@ -70,9 +70,9 @@ needed to start developing with Laravel & Nano JSX.
 Create a new route inside `routes/web.php`:
 
 ```php
-Route::get('/', function () {
-    return view('nanojsx');
-});
+Route::get('/{path?}', function() {
+  return view('nanojsx');
+})->where('path', '.*');
 ```
 
 ### Changelog
